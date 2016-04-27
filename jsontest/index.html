@@ -52,6 +52,9 @@
         loader = new THREE.JSONLoader();
     }
     function installModel(file){
+        if (object) {
+            scene.remove(object);
+        }
         loader.load( file, modelLoadedCallback);
     }
 
