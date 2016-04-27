@@ -35,31 +35,32 @@
 
 <script>
 
-if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
-function init(){
-    renderer = new THREE.WebGLRenderer({antialias: true});
-    renderer.setSize( window.innerWidth, window.innerHeight );
-    document.body.appendChild( renderer.domElement );
-    renderer.setClearColor(0xFFFFFF);
-    var scene = new THREE.Scene();
-    var camera = new THREE.PerspectiveCamera(45, 4 / 3, 1, 1000);
-    //var camera = new THREE.OrthographicCamera(-2, 2, 1.5, -1.5, 1, 10);
-    camera.position.set(12, 12, 12);
-    camera.lookAt(new THREE.Vector3(0, 0, 0));
-    scene.add(camera);
-    var controls = new THREE.OrbitControls( camera, renderer.domElement );
-    var loader = new THREE.JSONLoader();
-    loader.load( "tree.json", modelLoadedCallback);
-
-    function modelLoadedCallback(geometry, materials) {
-        var object = new THREE.Mesh(geometry, new THREE.MeshFaceMaterial(materials));
-        scene.add(object);
-        render();
-        console.log("end");
+    var object,renderer,scene,camera,controls,loader;
+    function init(){
+        if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
+        renderer = new THREE.WebGLRenderer({antialias: true});
+        renderer.setSize( window.innerWidth, window.innerHeight );
+        document.body.appendChild(renderer.domElement );
+        renderer.setClearColor(0xFFFFFF);
+        scene = new THREE.Scene();
+        camera = new THREE.PerspectiveCamera(45, 4 / 3, 1, 1000);
+        //var camera = new THREE.OrthographicCamera(-2, 2, 1.5, -1.5, 1, 10);
+        camera.position.set(12, 12, 12);
+        camera.lookAt(new THREE.Vector3(0, 0, 0));
+        scene.add(camera);
+        controls = new THREE.OrbitControls( camera, renderer.domElement );
+        loader = new THREE.JSONLoader();
+    }
+    function installModel(file){
+        loader.load( file, modelLoadedCallback);
     }
 
-
-
+    function modelLoadedCallback(geometry, materials) {
+        object = new THREE.Mesh(geometry, new THREE.MeshFaceMaterial(materials));
+        scene.add(object);
+        render();
+        console.log("已完成渲染")
+    }
     //渲染元素
     function render() {
         //不使用setTimetout为了防止掉帧
@@ -67,19 +68,16 @@ function init(){
         renderer.render( scene, camera );
     }
 
-}
-
-
-
-function start3d(){
-    init();
-}
 
 </script>
 
 
 </head>
 
-<body onload="start3d()">
+<body onload="init()">
+<div>
+    <button onclick="installModel('arrow.json')">箭头</button>
+    <button onclick="installModel('tree.json')">树</button>
+    </div>
 </body>
 </html>

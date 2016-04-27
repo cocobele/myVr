@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e195f7f-edab-4586-aeb7-36efb58b2bb4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsontest/build/Detector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsontest/build/JSONLoaders.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsontest/build/OrbitControls.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsontest/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsontest/build/three.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/build/three.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsontest/tree.json" />
+      <change type="DELETED" beforePath="E:\www\lixu\myVr\jsontest\tank.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsontest/index.html" afterPath="$PROJECT_DIR$/jsontest/index.html" />
     </list>
     <ignored path="myVr.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,7 +38,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jsontest/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="26" selection-start="1856" selection-end="1856" vertical-scroll-proportion="0.6627219" vertical-offset="485" max-vertical-offset="1710">
+            <state line="73" column="0" selection-start="2213" selection-end="2213" vertical-scroll-proportion="0.6852071" vertical-offset="808" max-vertical-offset="1672">
               <folding />
             </state>
           </provider>
@@ -80,7 +74,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="20.357143" vertical-offset="570" max-vertical-offset="1653">
+            <state line="35" column="0" selection-start="928" selection-end="944" vertical-scroll-proportion="-3.392857" vertical-offset="570" max-vertical-offset="1653">
               <folding />
             </state>
           </provider>
@@ -365,13 +359,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="20.357143" vertical-offset="570" max-vertical-offset="1653">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsontest/build/three.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.3220339" vertical-offset="285" max-vertical-offset="15979">
@@ -407,9 +394,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="928" selection-end="944" vertical-scroll-proportion="-3.392857" vertical-offset="570" max-vertical-offset="1653">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jsontest/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="26" selection-start="1856" selection-end="1856" vertical-scroll-proportion="0.6627219" vertical-offset="485" max-vertical-offset="1710">
+        <state line="73" column="0" selection-start="2213" selection-end="2213" vertical-scroll-proportion="0.6852071" vertical-offset="808" max-vertical-offset="1672">
           <folding />
         </state>
       </provider>
