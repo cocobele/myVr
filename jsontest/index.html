@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>测试</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<style>
+    body {
+        font-family: Monospace;
+        background-color: #000;
+        color: #fff;
+        margin: 0px;
+        overflow: hidden;
+    }
+    #info {
+        color: #fff;
+        position: absolute;
+        top: 10px;
+        width: 100%;
+        text-align: center;
+        z-index: 100;
+        display:block;
+    }
+    #info a, .button { color: #f00; font-weight: bold; text-decoration: underline; cursor: pointer }
+</style>
+
+<script src="../jsontest/build/three.min.js"></script>
+<script src="../jsontest/build/Detector.js"></script>
+<script src="../jsontest/build/OrbitControls.js"></script>
+<!--
+<script src="../jsontest/build/JSONLoaders.js"></script>
+-->
+
+
+<script>
+
+if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
+function init(){
+    renderer = new THREE.WebGLRenderer({antialias: true});
+    renderer.setSize( window.innerWidth, window.innerHeight );
+    document.body.appendChild( renderer.domElement );
+    renderer.setClearColor(0xFFFFFF);
+    var scene = new THREE.Scene();
+    var camera = new THREE.PerspectiveCamera(45, 4 / 3, 1, 1000);
+    //var camera = new THREE.OrthographicCamera(-2, 2, 1.5, -1.5, 1, 10);
+    camera.position.set(12, 12, 12);
+    camera.lookAt(new THREE.Vector3(0, 0, 0));
+    scene.add(camera);
+    var controls = new THREE.OrbitControls( camera, renderer.domElement );
+    var loader = new THREE.JSONLoader();
+    loader.load( "tree.json", modelLoadedCallback);
+
+    function modelLoadedCallback(geometry, materials) {
+        var object = new THREE.Mesh(geometry, new THREE.MeshFaceMaterial(materials));
+        scene.add(object);
+        render();
+        console.log("end");
+    }
+
+
+
+    //渲染元素
+    function render() {
+        //不使用setTimetout为了防止掉帧
+        requestAnimationFrame( render );
+        renderer.render( scene, camera );
+    }
+
+}
+
+
+
+function start3d(){
+    init();
+}
+
+</script>
+
+
+</head>
+
+<body onload="start3d()">
+</body>
+</html>
