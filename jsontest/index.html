@@ -48,6 +48,14 @@
         camera.position.set(12, 12, 12);
         camera.lookAt(new THREE.Vector3(0, 0, 0));
         scene.add(camera);
+        // 创建一个光的源点
+        var pointLight = new THREE.PointLight( 0xFFFFFF );
+        // 设置光源点位置
+        pointLight.position.x = 10;
+        pointLight.position.y = 50;
+        pointLight.position.z = 130;
+        // 添加到场景
+        scene.add(pointLight);
         controls = new THREE.OrbitControls( camera, renderer.domElement );
         loader = new THREE.JSONLoader();
     }
@@ -81,6 +89,7 @@
 <div>
     <button onclick="installModel('arrow.json')">箭头</button>
     <button onclick="installModel('tree.json')">树</button>
+    <!--<button onclick="installModel('play.json')">游乐场</button>-->
     </div>
 </body>
 </html>

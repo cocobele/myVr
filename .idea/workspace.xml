@@ -4,6 +4,8 @@
     <list default="true" id="3e195f7f-edab-4586-aeb7-36efb58b2bb4" name="Default" comment="">
       <change type="DELETED" beforePath="E:\www\lixu\myVr\jsontest\tank.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsontest/index.html" afterPath="$PROJECT_DIR$/jsontest/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/index.html" afterPath="$PROJECT_DIR$/test/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="myVr.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jsontest/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="31" selection-start="1824" selection-end="1824" vertical-scroll-proportion="-8.773585" vertical-offset="580" max-vertical-offset="1729">
+            <state line="82" column="9" selection-start="2532" selection-end="2532" vertical-scroll-proportion="0.60599077" vertical-offset="1032" max-vertical-offset="1900">
               <folding />
             </state>
           </provider>
@@ -53,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arrow.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="arrow.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsontest/arrow.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="23" selection-start="351" selection-end="351" vertical-scroll-proportion="0.51525426" vertical-offset="0" max-vertical-offset="885">
+            <state line="25" column="0" selection-start="22245" selection-end="22245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
               <folding />
             </state>
           </provider>
@@ -74,7 +76,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="928" selection-end="944" vertical-scroll-proportion="-3.392857" vertical-offset="570" max-vertical-offset="1653">
+            <state line="49" column="51" selection-start="1642" selection-end="1642" vertical-scroll-proportion="-12.892858" vertical-offset="570" max-vertical-offset="1653">
               <folding />
             </state>
           </provider>
@@ -116,9 +118,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/index.html" />
         <option value="$PROJECT_DIR$/jsontest/build/JSONLoaders.js" />
         <option value="$PROJECT_DIR$/jsontest/tree.json" />
+        <option value="$PROJECT_DIR$/test/index.html" />
         <option value="$PROJECT_DIR$/jsontest/index.html" />
       </list>
     </option>
@@ -227,6 +229,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="F:/03 PHP及前端/03 技术交流视频/VR看房资料/vr-demo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -387,23 +390,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jsontest/arrow.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="22245" selection-end="22245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="928" selection-end="944" vertical-scroll-proportion="-3.392857" vertical-offset="570" max-vertical-offset="1653">
+        <state line="49" column="51" selection-start="1642" selection-end="1642" vertical-scroll-proportion="-12.892858" vertical-offset="570" max-vertical-offset="1653">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jsontest/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="31" selection-start="1824" selection-end="1824" vertical-scroll-proportion="-8.773585" vertical-offset="580" max-vertical-offset="1729">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsontest/arrow.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="23" selection-start="351" selection-end="351" vertical-scroll-proportion="0.51525426" vertical-offset="0" max-vertical-offset="885">
+        <state line="82" column="9" selection-start="2532" selection-end="2532" vertical-scroll-proportion="0.60599077" vertical-offset="1032" max-vertical-offset="1900">
           <folding />
         </state>
       </provider>
