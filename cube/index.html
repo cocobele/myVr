@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>测试</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<style>
+    body {
+        font-family: Monospace;
+        background-color: #000;
+        color: #fff;
+        margin: 0px;
+        overflow: hidden;
+    }
+    #info {
+        color: #fff;
+        position: absolute;
+        top: 10px;
+        width: 100%;
+        text-align: center;
+        z-index: 100;
+        display:block;
+    }
+    #info a, .button { color: #f00; font-weight: bold; text-decoration: underline; cursor: pointer }
+</style>
+
+<script src="../test/build/three.min.js"></script>
+<script src="../test/build/Detector.js"></script>
+<script src="../test/build/OrbitControls.js"></script>
+
+
+<script>
+
+if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
+var init=function(){
+    renderer = new THREE.WebGLRenderer({antialias: true});
+    renderer.setSize( window.innerWidth, window.innerHeight );
+    document.body.appendChild( renderer.domElement );
+    loader = new THREE.TextureLoader();
+    renderer.setClearColor(0x000000);
+    var scene = new THREE.Scene();
+    var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 1000);
+    //var camera = new THREE.OrthographicCamera(-2, 2, 1.5, -1.5, 1, 10);
+   camera.position.set(12, 12, 12);
+    camera.lookAt(new THREE.Vector3(0, 0, 0));
+    scene.add(camera);
+
+// 纹理图像的url
+    var urls = [
+                'skybox/px.jpg',
+                'skybox/nx.jpg',
+                'skybox/py.jpg',
+                'skybox/ny.jpg',
+                'skybox/pz.jpg',
+                'skybox/nz.jpg',
+            ];
+
+
+    Promise.all(urls.map(function (val) {
+                //加载图片, 新建材质, 传给下一个步骤.
+                return new Promise(function (resolve, reject) {
+                    loader.load(val, function (texture) {
+                        resolve(new THREE.MeshBasicMaterial({
+                            map: texture,
+                            side: THREE.BackSide
+                        }));
+                    });
+                });
+            })).then(function (materials) {
+        //将材质贴到正方体的6个面.
+        geometry = new THREE.BoxGeometry(60, 60, 60);
+        cube = new THREE.Mesh(
+                geometry,
+                new THREE.MeshFaceMaterial(materials)
+        );
+        scene.add(cube);
+    });
+
+    var controls = new THREE.OrbitControls( camera, renderer.domElement );
+    function render() {
+        //不使用setTimetout为了防止掉帧
+        requestAnimationFrame( render );
+        renderer.render( scene, camera );
+    }
+    render();
+}
+
+
+
+</script>
+
+
+</head>
+
+<body onload="init()">
+</body>
+</html>

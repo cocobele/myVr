@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3e195f7f-edab-4586-aeb7-36efb58b2bb4" name="Default" comment="">
       <change type="DELETED" beforePath="E:\www\lixu\myVr\jsontest\tank.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsontest/index.html" afterPath="$PROJECT_DIR$/jsontest/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/index.html" afterPath="$PROJECT_DIR$/test/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="myVr.iws" />
@@ -37,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsontest/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="9" selection-start="2532" selection-end="2532" vertical-scroll-proportion="0.60599077" vertical-offset="1032" max-vertical-offset="1900">
+            <state line="59" column="10" selection-start="1956" selection-end="1956" vertical-scroll-proportion="-15.464286" vertical-offset="688" max-vertical-offset="1900">
               <folding />
             </state>
           </provider>
@@ -55,10 +53,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cube/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="0" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.21839081" vertical-offset="665" max-vertical-offset="1957">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="arrow.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsontest/arrow.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="22245" selection-end="22245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+            <state line="25" column="0" selection-start="22245" selection-end="22245" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="855">
               <folding />
             </state>
           </provider>
@@ -67,7 +74,7 @@
       <file leaf-file-name="JSONLoaders.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsontest/build/JSONLoaders.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="6" selection-start="103" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10716">
+            <state line="6" column="6" selection-start="103" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="10716">
               <folding />
             </state>
           </provider>
@@ -76,7 +83,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="51" selection-start="1642" selection-end="1642" vertical-scroll-proportion="-12.892858" vertical-offset="570" max-vertical-offset="1653">
+            <state line="47" column="46" selection-start="1459" selection-end="1488" vertical-scroll-proportion="-10.035714" vertical-offset="612" max-vertical-offset="1653">
               <folding />
             </state>
           </provider>
@@ -85,7 +92,7 @@
       <file leaf-file-name="Detector.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsontest/build/Detector.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="25" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1368">
+            <state line="19" column="25" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="1368">
               <folding>
                 <marker date="1429570900000" expanded="false" signature="1174:1184" placeholder="..." />
                 <marker date="1429570900000" expanded="false" signature="1272:1282" placeholder="..." />
@@ -99,7 +106,7 @@
       <file leaf-file-name="playground.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playgroud/playground.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="97" selection-start="1563" selection-end="1563" vertical-scroll-proportion="-7.464286" vertical-offset="931" max-vertical-offset="5244">
+            <state line="60" column="97" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0" vertical-offset="931" max-vertical-offset="5244">
               <folding />
             </state>
           </provider>
@@ -122,6 +129,7 @@
         <option value="$PROJECT_DIR$/jsontest/tree.json" />
         <option value="$PROJECT_DIR$/test/index.html" />
         <option value="$PROJECT_DIR$/jsontest/index.html" />
+        <option value="$PROJECT_DIR$/cube/index.html" />
       </list>
     </option>
   </component>
@@ -158,7 +166,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,21 +222,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jsontest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
+              <option name="myItemId" value="cube" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/03 PHP及前端/03 技术交流视频/VR看房资料/vr-demo" />
+    <property name="last_opened_file_path" value="F:/haowu_hehuoren/mhaowu" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -268,7 +272,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -276,7 +280,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22044729" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22683705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -308,11 +312,192 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/build/Detector.js">
+    <entry file="file://$PROJECT_DIR$/test/build/three.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="9" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1368">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15979">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsontest/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="0" selection-start="2534" selection-end="2534" vertical-scroll-proportion="0.0" vertical-offset="1032" max-vertical-offset="1900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsontest/tree.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsontest/arrow.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="22245" selection-end="22245" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsontest/build/JSONLoaders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="103" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="10716">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="51" selection-start="1642" selection-end="1642" vertical-scroll-proportion="0.0" vertical-offset="931" max-vertical-offset="1653">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsontest/build/Detector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="25" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="1368">
+          <folding>
+            <marker date="1429570900000" expanded="false" signature="1174:1184" placeholder="..." />
+            <marker date="1429570900000" expanded="false" signature="1272:1282" placeholder="..." />
+            <marker date="1429570900000" expanded="false" signature="1438:1448" placeholder="..." />
+            <marker date="1429570900000" expanded="false" signature="1535:1545" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playgroud/playground.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="97" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0" vertical-offset="931" max-vertical-offset="5244">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/build/three.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15979">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsontest/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="0" selection-start="2534" selection-end="2534" vertical-scroll-proportion="0.0" vertical-offset="1032" max-vertical-offset="1900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsontest/tree.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="109707" selection-end="109707" vertical-scroll-proportion="0.0" vertical-offset="722" max-vertical-offset="836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsontest/arrow.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="22245" selection-end="22245" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsontest/build/JSONLoaders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="103" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="10716">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="51" selection-start="1642" selection-end="1642" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1653">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsontest/build/Detector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="25" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="1368">
+          <folding>
+            <marker date="1429570900000" expanded="false" signature="1174:1184" placeholder="..." />
+            <marker date="1429570900000" expanded="false" signature="1272:1282" placeholder="..." />
+            <marker date="1429570900000" expanded="false" signature="1438:1448" placeholder="..." />
+            <marker date="1429570900000" expanded="false" signature="1535:1545" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playgroud/playground.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="97" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0" vertical-offset="931" max-vertical-offset="5244">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/build/three.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15979">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsontest/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="0" selection-start="2534" selection-end="2534" vertical-scroll-proportion="0.0" vertical-offset="1032" max-vertical-offset="1900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsontest/tree.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="109707" selection-end="109707" vertical-scroll-proportion="0.0" vertical-offset="722" max-vertical-offset="836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsontest/arrow.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="22245" selection-end="22245" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsontest/build/JSONLoaders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="103" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="10716">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="51" selection-start="1642" selection-end="1642" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1653">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsontest/build/Detector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="25" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="1368">
+          <folding>
+            <marker date="1429570900000" expanded="false" signature="1174:1184" placeholder="..." />
+            <marker date="1429570900000" expanded="false" signature="1272:1282" placeholder="..." />
+            <marker date="1429570900000" expanded="false" signature="1438:1448" placeholder="..." />
+            <marker date="1429570900000" expanded="false" signature="1535:1545" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playgroud/playground.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="97" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0" vertical-offset="931" max-vertical-offset="5244">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/build/Detector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="9" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1368" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/build/three.min.js">
@@ -338,9 +523,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/build/Detector.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="9" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="1368">
-          <folding />
-        </state>
+        <state line="23" column="9" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="1368" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jsontest/build/Detector.js">
@@ -357,23 +540,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/playgroud/playground.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="97" selection-start="1563" selection-end="1563" vertical-scroll-proportion="-7.464286" vertical-offset="931" max-vertical-offset="5244">
+        <state line="60" column="97" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0" vertical-offset="931" max-vertical-offset="5244">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jsontest/build/three.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.3220339" vertical-offset="285" max-vertical-offset="15979">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsontest/tree.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="109707" selection-end="109707" vertical-scroll-proportion="-25.785715" vertical-offset="0" max-vertical-offset="836">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.3220339" vertical-offset="285" max-vertical-offset="15979" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/build/three.min.js">
@@ -397,16 +571,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/index.html">
+    <entry file="file://$PROJECT_DIR$/jsontest/tree.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="51" selection-start="1642" selection-end="1642" vertical-scroll-proportion="-12.892858" vertical-offset="570" max-vertical-offset="1653">
+        <state line="38" column="0" selection-start="109707" selection-end="109707" vertical-scroll-proportion="-25.785715" vertical-offset="0" max-vertical-offset="836">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jsontest/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="9" selection-start="2532" selection-end="2532" vertical-scroll-proportion="0.60599077" vertical-offset="1032" max-vertical-offset="1900">
+        <state line="59" column="10" selection-start="1956" selection-end="1956" vertical-scroll-proportion="-15.464286" vertical-offset="688" max-vertical-offset="1900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="46" selection-start="1459" selection-end="1488" vertical-scroll-proportion="-10.035714" vertical-offset="612" max-vertical-offset="1653">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cube/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.21839081" vertical-offset="665" max-vertical-offset="1957">
           <folding />
         </state>
       </provider>
