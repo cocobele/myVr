@@ -42,25 +42,25 @@ var init=function(){
     var scene = new THREE.Scene();
     var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 1000);
     //var camera = new THREE.OrthographicCamera(-2, 2, 1.5, -1.5, 1, 10);
-   camera.position.set(12, 12, 12);
+   camera.position.set(5, 5, 5);
     camera.lookAt(new THREE.Vector3(0, 0, 0));
     scene.add(camera);
-
+    var folder='nanjin/';
 // 纹理图像的url
     var urls = [
-                'skybox/px.jpg',
-                'skybox/nx.jpg',
-                'skybox/py.jpg',
-                'skybox/ny.jpg',
-                'skybox/pz.jpg',
-                'skybox/nz.jpg',
+                'px.jpg',
+                'nx.jpg',
+                'py.jpg',
+                'ny.jpg',
+                'pz.jpg',
+                'nz.jpg',
             ];
 
 
     Promise.all(urls.map(function (val) {
                 //加载图片, 新建材质, 传给下一个步骤.
                 return new Promise(function (resolve, reject) {
-                    loader.load(val, function (texture) {
+                    loader.load(folder+val, function (texture) {
                         resolve(new THREE.MeshBasicMaterial({
                             map: texture,
                             side: THREE.BackSide
@@ -69,7 +69,7 @@ var init=function(){
                 });
             })).then(function (materials) {
         //将材质贴到正方体的6个面.
-        geometry = new THREE.BoxGeometry(60, 60, 60);
+        geometry = new THREE.BoxGeometry(600, 600, 600);
         cube = new THREE.Mesh(
                 geometry,
                 new THREE.MeshFaceMaterial(materials)
